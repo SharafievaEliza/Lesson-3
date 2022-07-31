@@ -179,3 +179,13 @@ git clone https://github.com/tutorialzine/awesome-project
 $ git remote add origin https://github.com/tutorialzine/awesome-project.git
 ```
 Проект может иметь несколько удаленных репозиториев одновременно. Чтобы их различать, мы дадим им разные имена. Обычно главный репозиторий называется origin.
+
+4. Запрос изменений с сервера
+Если вы сделали изменения в вашем удаленном репозитории, другие пользователи могут скачать изменения при помощи команды pull.
+```
+$ git pull origin master
+From https://github.com/tutorialzine/awesome-project
+* branch master -> FETCH_HEAD
+Already up-to-date.
+```
+Так как новых коммитов с тех пор, как мы склонировали себе проект, не было, никаких изменений доступных для скачивания нет.
