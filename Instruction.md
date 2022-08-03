@@ -239,3 +239,5 @@ $ git branch
 amazing_new_feature
 * master
 ```
+
+Тефтелька - замечательный котик :)
